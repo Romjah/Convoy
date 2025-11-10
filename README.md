@@ -30,31 +30,6 @@ Développée en complément de **GearConnect**, Convoy vise à rendre les dépla
 
 ---
 
-## 🧩 Architecture du projet
-
-convoy/
-├── app/ → Application mobile Expo (frontend)
-│ ├── src/
-│ │ ├── screens/ # Auth, Home, Map, Costs, Settings
-│ │ ├── components/ # MapView, MemberMarker, ExpenseForm...
-│ │ ├── services/ # API, Socket, Location, Storage
-│ │ └── state/ # Auth, Group, Event, Positions, Expenses
-│ └── app.json
-│
-├── server/ → Backend Express + Socket.IO
-│ ├── src/
-│ │ ├── models/ # User, Group, Event, Position, Expense
-│ │ ├── routes/ # REST API
-│ │ ├── sockets/ # Realtime (positions, checkpoints)
-│ │ └── utils/ # Hash, Auth, Config
-│ └── tsconfig.json
-│
-├── .env.example
-├── package.json
-
-
----
-
 ## 🚀 Lancer le projet localement
 
 ### 1️⃣ Cloner le dépôt
